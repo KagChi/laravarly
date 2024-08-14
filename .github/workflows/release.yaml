@@ -37,9 +37,12 @@ jobs:
 
       - name: Install Node dependencies
         run: pnpm install --frozen-lockfile
+      
+      - name: Linting
+        run: pnpm lint
 
       - name: Compile Vite Requirements
-        run: pnpm run build
+        run: pnpm build
 
       - name: Create ZIP archive
         if: github.event_name == 'push' || github.event_name == 'release'
