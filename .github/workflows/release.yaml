@@ -27,9 +27,6 @@ jobs:
       - name: Install Composer dependencies
         run: composer install --prefer-dist --no-progress --no-suggest
 
-      - name: Optimize Output
-        run: php artisan filament:optimize
-
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
 
