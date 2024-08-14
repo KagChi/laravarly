@@ -62,5 +62,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          upload_url: ${{ github.event.release.upload_url }}
           asset_path: ./release.zip
           asset_name: release.zip
