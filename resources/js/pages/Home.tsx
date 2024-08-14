@@ -1,5 +1,9 @@
+import { BaseLayout } from "@/layouts";
+
 export default function Home() {
     return (
-        <p>Hello World</p>
+        <BaseLayout>
+            <p className="underline">Hello World</p>
+        </BaseLayout>
     );
 }
