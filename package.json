@@ -1,4 +1,5 @@
 {
+  "name": "@kagchi/laravarly",
   "private": true,
   "type": "module",
   "scripts": {
