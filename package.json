@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@inertiajs/inertia-react": "^0.8.1",
-    "@inertiajs/react": "^1.2.0",
+    "@inertiajs/react": "^2.0.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/typography": "^0.5.14",
     "axios": "^1.6.4",
