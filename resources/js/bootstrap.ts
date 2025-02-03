@@ -1,4 +1,9 @@
-import axios, { AxiosInstance, AxiosRequestHeaders } from "axios";
+/* eslint-disable no-undef */
+/* eslint-disable unicorn/prefer-global-this */
+/* eslint-disable typescript/consistent-type-definitions */
+
+import type { AxiosInstance, AxiosRequestHeaders } from "axios";
+import axios from "axios";
 
 declare global {
     interface Window {
