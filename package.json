@@ -17,19 +17,19 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.0",
-    "@eslint/js": "^9.22.0",
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.25.1",
     "@hazmi35/eslint-config": "15.2.2",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.20",
-    "eslint": "9.25.0",
+    "eslint": "9.25.1",
     "eslint-plugin-tailwindcss": "3.18.0",
     "laravel-vite-plugin": "^1.0",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10",
-    "typescript": "^5.5.4",
+    "typescript": "^5.8.3",
     "vite": "^6.0.0"
   },
   "packageManager": "pnpm@10.8.1",
