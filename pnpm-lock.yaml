@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inertiajs/react':
-        specifier: ^2.0.8
-        version: 2.0.8(react@19.1.0)
+        specifier: ^2.0.9
+        version: 2.0.9(react@19.1.0)
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
         version: 0.4.2(tailwindcss@3.4.17)
@@ -387,11 +387,11 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inertiajs/core@2.0.8':
-    resolution: {integrity: sha512-YE+b5FktbSSaWJt4CjCHy7z3t+IV97G/8kD33mkj2Fqqf+Jfsypd/jsOuxrQGSMDpIyAGR6EDoaiuss6+JuIPA==}
+  '@inertiajs/core@2.0.9':
+    resolution: {integrity: sha512-Wn0F5pNsq3VTzI0RDDPh9IEicJMtizob4wAKbHHIZVdBAqs4f1+SOhfYdEF9XDC41ynw4ERy5A1LFp6/Vt7MxA==}
 
-  '@inertiajs/react@2.0.8':
-    resolution: {integrity: sha512-eW4+qkDYDyM8amfPOOJp4965YMS9aS2pbsFRmmMXDp2FaAdO0yIL9iJT7MlBU7zvaERLKKnWw6vRCpGafSp4Dw==}
+  '@inertiajs/react@2.0.9':
+    resolution: {integrity: sha512-V55bdBvD1V0wXaGrL8/TWVq1vKWVc3jc/IQKhWD2WEnstY8U2XRqEhQVoTGKQiIkfanXgDSmKl9KTQIMohz02Q==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -2334,7 +2334,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inertiajs/core@2.0.8':
+  '@inertiajs/core@2.0.9':
     dependencies:
       axios: 1.9.0
       es-toolkit: 1.35.0
@@ -2342,9 +2342,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@inertiajs/react@2.0.8(react@19.1.0)':
+  '@inertiajs/react@2.0.9(react@19.1.0)':
     dependencies:
-      '@inertiajs/core': 2.0.8
+      '@inertiajs/core': 2.0.9
       es-toolkit: 1.35.0
       react: 19.1.0
     transitivePeerDependencies:
