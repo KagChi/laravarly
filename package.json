@@ -22,7 +22,7 @@
     "@hazmi35/eslint-config": "15.2.2",
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
-    "@vitejs/plugin-react": "^4.4.1",
+    "@vitejs/plugin-react": "^4.5.0",
     "autoprefixer": "^10.4.21",
     "eslint": "9.27.0",
     "eslint-plugin-tailwindcss": "3.18.0",
