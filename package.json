@@ -9,7 +9,7 @@
     "lint:fix": "eslint resources/js --fix && php vendor/bin/php-cs-fixer fix --allow-risky=yes --quiet"
   },
   "dependencies": {
-    "@inertiajs/react": "^2.0.15",
+    "@inertiajs/react": "^2.0.17",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/typography": "^0.5.16",
     "axios": "^1.10.0",
@@ -22,7 +22,7 @@
     "@hazmi35/eslint-config": "15.2.2",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "@vitejs/plugin-react": "^4.6.0",
+    "@vitejs/plugin-react": "^4.7.0",
     "autoprefixer": "^10.4.21",
     "eslint": "9.31.0",
     "eslint-plugin-tailwindcss": "3.18.2",
