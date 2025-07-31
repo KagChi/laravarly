@@ -32,7 +32,7 @@
     "typescript": "^5.8.3",
     "vite": "^7.0.6"
   },
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.14.0",
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
