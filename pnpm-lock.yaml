@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inertiajs/react':
-        specifier: ^2.1.3
-        version: 2.1.3(react@19.1.1)
+        specifier: ^2.1.5
+        version: 2.1.5(react@19.1.1)
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
         version: 0.4.2(tailwindcss@3.4.17)
@@ -44,7 +44,7 @@ importers:
         version: 19.1.9(@types/react@19.1.12)
       '@vitejs/plugin-react':
         specifier: ^5.0.2
-        version: 5.0.2(vite@7.1.3(jiti@1.21.7)(yaml@2.7.0))
+        version: 5.0.2(vite@7.1.5(jiti@1.21.7)(yaml@2.7.0))
       autoprefixer:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.6)
@@ -56,7 +56,7 @@ importers:
         version: 3.18.2(tailwindcss@3.4.17)
       laravel-vite-plugin:
         specifier: ^2.0.1
-        version: 2.0.1(vite@7.1.3(jiti@1.21.7)(yaml@2.7.0))
+        version: 2.0.1(vite@7.1.5(jiti@1.21.7)(yaml@2.7.0))
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
@@ -67,8 +67,8 @@ importers:
         specifier: ^5.9.2
         version: 5.9.2
       vite:
-        specifier: ^7.1.3
-        version: 7.1.3(jiti@1.21.7)(yaml@2.7.0)
+        specifier: ^7.1.5
+        version: 7.1.5(jiti@1.21.7)(yaml@2.7.0)
 
 packages:
 
@@ -391,11 +391,11 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inertiajs/core@2.1.3':
-    resolution: {integrity: sha512-X8E5sPF0MF69+2kxOHuBqW06Rr/VD51Je37JY8bi5SCoi9wTpzmaurpDDIftnbfCJGYupFL1jky7DjEpD+6ufg==}
+  '@inertiajs/core@2.1.5':
+    resolution: {integrity: sha512-bVApSgzooJ7Wl+x1ZFEvkKRcjpuRHN85l4rVzjbjvqSsy2fXSlsGpHAB4wtLE7Dum+6pdweN1lSMXkaqfjHC+Q==}
 
-  '@inertiajs/react@2.1.3':
-    resolution: {integrity: sha512-3vfZJVjkRP6I6xXvkeKxKcqwusF0Qpc+/eiwLw1fHwFsjpWjyqJExm2jddsxm2P21fNWLxHZACzuGmYX0x2SUg==}
+  '@inertiajs/react@2.1.5':
+    resolution: {integrity: sha512-HQd8y3NYvAVnXm4Iuznkp2S9eOFp96N7vEqcJrehLb7bqDWwmMC/4tk6dbR7osrePjjtwqlXZiEDuI3aPDUaKw==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -1751,8 +1751,8 @@ packages:
   thenify@3.3.1:
     resolution: {integrity: sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==}
 
-  tinyglobby@0.2.14:
-    resolution: {integrity: sha512-tX5e7OM1HnYr2+a2C/4V0htOcSQcoSTH9KgJnVvNm5zm/cyEWKJ7j7YutsH9CxMdtOkkLFy2AHrMci9IM8IPZQ==}
+  tinyglobby@0.2.15:
+    resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
     engines: {node: '>=12.0.0'}
 
   to-regex-range@5.0.1:
@@ -1813,8 +1813,8 @@ packages:
   vite-plugin-full-reload@1.2.0:
     resolution: {integrity: sha512-kz18NW79x0IHbxRSHm0jttP4zoO9P9gXh+n6UTwlNKnviTTEpOlum6oS9SmecrTtSr+muHEn5TUuC75UovQzcA==}
 
-  vite@7.1.3:
-    resolution: {integrity: sha512-OOUi5zjkDxYrKhTV3V7iKsoS37VUM7v40+HuwEmcrsf11Cdx9y3DIr2Px6liIcZFwt3XSRpQvFpL3WVy7ApkGw==}
+  vite@7.1.5:
+    resolution: {integrity: sha512-4cKBO9wR75r0BeIWWWId9XK9Lj6La5X846Zw9dFfzMRw38IlTk2iCcUt6hsyiDRcPidc55ZParFYDXi0nXOeLQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -2156,7 +2156,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inertiajs/core@2.1.3':
+  '@inertiajs/core@2.1.5':
     dependencies:
       '@types/lodash-es': 4.17.12
       axios: 1.11.0
@@ -2165,9 +2165,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@inertiajs/react@2.1.3(react@19.1.1)':
+  '@inertiajs/react@2.1.5(react@19.1.1)':
     dependencies:
-      '@inertiajs/core': 2.1.3
+      '@inertiajs/core': 2.1.5
       '@types/lodash-es': 4.17.12
       lodash-es: 4.17.21
       react: 19.1.1
@@ -2479,7 +2479,7 @@ snapshots:
       '@typescript-eslint/types': 8.30.1
       eslint-visitor-keys: 4.2.1
 
-  '@vitejs/plugin-react@5.0.2(vite@7.1.3(jiti@1.21.7)(yaml@2.7.0))':
+  '@vitejs/plugin-react@5.0.2(vite@7.1.5(jiti@1.21.7)(yaml@2.7.0))':
     dependencies:
       '@babel/core': 7.28.3
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.3)
@@ -2487,7 +2487,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.34
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 7.1.3(jiti@1.21.7)(yaml@2.7.0)
+      vite: 7.1.5(jiti@1.21.7)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3146,10 +3146,10 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  laravel-vite-plugin@2.0.1(vite@7.1.3(jiti@1.21.7)(yaml@2.7.0)):
+  laravel-vite-plugin@2.0.1(vite@7.1.5(jiti@1.21.7)(yaml@2.7.0)):
     dependencies:
       picocolors: 1.1.1
-      vite: 7.1.3(jiti@1.21.7)(yaml@2.7.0)
+      vite: 7.1.5(jiti@1.21.7)(yaml@2.7.0)
       vite-plugin-full-reload: 1.2.0
 
   levn@0.4.1:
@@ -3596,7 +3596,7 @@ snapshots:
     dependencies:
       any-promise: 1.3.0
 
-  tinyglobby@0.2.14:
+  tinyglobby@0.2.15:
     dependencies:
       fdir: 6.5.0(picomatch@4.0.3)
       picomatch: 4.0.3
@@ -3655,14 +3655,14 @@ snapshots:
       picocolors: 1.1.1
       picomatch: 2.3.1
 
-  vite@7.1.3(jiti@1.21.7)(yaml@2.7.0):
+  vite@7.1.5(jiti@1.21.7)(yaml@2.7.0):
     dependencies:
       esbuild: 0.25.2
       fdir: 6.5.0(picomatch@4.0.3)
       picomatch: 4.0.3
       postcss: 8.5.6
       rollup: 4.46.2
-      tinyglobby: 0.2.14
+      tinyglobby: 0.2.15
     optionalDependencies:
       fsevents: 2.3.3
       jiti: 1.21.7
