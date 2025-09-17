@@ -22,7 +22,7 @@
     "@hazmi35/eslint-config": "15.2.2",
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
-    "@vitejs/plugin-react": "^5.0.2",
+    "@vitejs/plugin-react": "^5.0.3",
     "autoprefixer": "^10.4.21",
     "eslint": "9.35.0",
     "eslint-plugin-tailwindcss": "3.18.2",
@@ -32,7 +32,7 @@
     "typescript": "^5.9.2",
     "vite": "^7.1.5"
   },
-  "packageManager": "pnpm@10.16.1",
+  "packageManager": "pnpm@10.17.0",
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
