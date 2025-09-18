@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inertiajs/react':
-        specifier: ^2.1.6
-        version: 2.1.6(react@19.1.1)
+        specifier: ^2.1.7
+        version: 2.1.7(react@19.1.1)
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
         version: 0.4.2(tailwindcss@3.4.17)
@@ -44,7 +44,7 @@ importers:
         version: 19.1.9(@types/react@19.1.13)
       '@vitejs/plugin-react':
         specifier: ^5.0.3
-        version: 5.0.3(vite@7.1.5(jiti@1.21.7)(yaml@2.7.0))
+        version: 5.0.3(vite@7.1.6(jiti@1.21.7)(yaml@2.7.0))
       autoprefixer:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.6)
@@ -56,7 +56,7 @@ importers:
         version: 3.18.2(tailwindcss@3.4.17)
       laravel-vite-plugin:
         specifier: ^2.0.1
-        version: 2.0.1(vite@7.1.5(jiti@1.21.7)(yaml@2.7.0))
+        version: 2.0.1(vite@7.1.6(jiti@1.21.7)(yaml@2.7.0))
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
@@ -67,8 +67,8 @@ importers:
         specifier: ^5.9.2
         version: 5.9.2
       vite:
-        specifier: ^7.1.5
-        version: 7.1.5(jiti@1.21.7)(yaml@2.7.0)
+        specifier: ^7.1.6
+        version: 7.1.6(jiti@1.21.7)(yaml@2.7.0)
 
 packages:
 
@@ -396,11 +396,11 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inertiajs/core@2.1.6':
-    resolution: {integrity: sha512-PvY3QJecHt/Z+X+C+jJOHnBGxvi6YNuX3tLY0oXA2yC8aQZeUHnIoWnQdKgc0KA0CNj3b3sZSxm2ZQs9nMY7/Q==}
+  '@inertiajs/core@2.1.7':
+    resolution: {integrity: sha512-ahBSdNj4d7oqEBr5KcGPVuoyI3JWYKwwLjqhy2O4Jp/UKX1C6W0U/WkpL6NzCapNaNDACBVSc3rqZ/6lY0VbWA==}
 
-  '@inertiajs/react@2.1.6':
-    resolution: {integrity: sha512-9FxbgvYSGsspHvhgLXpoDKkY+2kRa1OYJSzMeEV3q4GiJZdRKKpTL44FH3H+gIJ5smYC+urdWvtCD+apPtAQZQ==}
+  '@inertiajs/react@2.1.7':
+    resolution: {integrity: sha512-3UjUpdYmXFugxG/gIcA12spuGIDGofxQqVngaD2Bna8RAbbkgaCG7VRhAaqx+ELIUoC09wEhkX2WsS6FgTxtHQ==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -1821,8 +1821,8 @@ packages:
   vite-plugin-full-reload@1.2.0:
     resolution: {integrity: sha512-kz18NW79x0IHbxRSHm0jttP4zoO9P9gXh+n6UTwlNKnviTTEpOlum6oS9SmecrTtSr+muHEn5TUuC75UovQzcA==}
 
-  vite@7.1.5:
-    resolution: {integrity: sha512-4cKBO9wR75r0BeIWWWId9XK9Lj6La5X846Zw9dFfzMRw38IlTk2iCcUt6hsyiDRcPidc55ZParFYDXi0nXOeLQ==}
+  vite@7.1.6:
+    resolution: {integrity: sha512-SRYIB8t/isTwNn8vMB3MR6E+EQZM/WG1aKmmIUCfDXfVvKfc20ZpamngWHKzAmmu9ppsgxsg4b2I7c90JZudIQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -2168,7 +2168,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inertiajs/core@2.1.6':
+  '@inertiajs/core@2.1.7':
     dependencies:
       '@types/lodash-es': 4.17.12
       axios: 1.12.2
@@ -2177,9 +2177,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@inertiajs/react@2.1.6(react@19.1.1)':
+  '@inertiajs/react@2.1.7(react@19.1.1)':
     dependencies:
-      '@inertiajs/core': 2.1.6
+      '@inertiajs/core': 2.1.7
       '@types/lodash-es': 4.17.12
       lodash-es: 4.17.21
       react: 19.1.1
@@ -2496,7 +2496,7 @@ snapshots:
       '@typescript-eslint/types': 8.30.1
       eslint-visitor-keys: 4.2.1
 
-  '@vitejs/plugin-react@5.0.3(vite@7.1.5(jiti@1.21.7)(yaml@2.7.0))':
+  '@vitejs/plugin-react@5.0.3(vite@7.1.6(jiti@1.21.7)(yaml@2.7.0))':
     dependencies:
       '@babel/core': 7.28.4
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.4)
@@ -2504,7 +2504,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.35
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 7.1.5(jiti@1.21.7)(yaml@2.7.0)
+      vite: 7.1.6(jiti@1.21.7)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3163,10 +3163,10 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  laravel-vite-plugin@2.0.1(vite@7.1.5(jiti@1.21.7)(yaml@2.7.0)):
+  laravel-vite-plugin@2.0.1(vite@7.1.6(jiti@1.21.7)(yaml@2.7.0)):
     dependencies:
       picocolors: 1.1.1
-      vite: 7.1.5(jiti@1.21.7)(yaml@2.7.0)
+      vite: 7.1.6(jiti@1.21.7)(yaml@2.7.0)
       vite-plugin-full-reload: 1.2.0
 
   levn@0.4.1:
@@ -3672,7 +3672,7 @@ snapshots:
       picocolors: 1.1.1
       picomatch: 2.3.1
 
-  vite@7.1.5(jiti@1.21.7)(yaml@2.7.0):
+  vite@7.1.6(jiti@1.21.7)(yaml@2.7.0):
     dependencies:
       esbuild: 0.25.2
       fdir: 6.5.0(picomatch@4.0.3)
