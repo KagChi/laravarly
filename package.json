@@ -11,7 +11,7 @@
   "dependencies": {
     "@inertiajs/react": "^2.1.7",
     "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/typography": "^0.5.18",
     "axios": "^1.12.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
