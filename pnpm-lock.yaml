@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inertiajs/react':
-        specifier: ^2.1.11
-        version: 2.1.11(react@19.1.1)
+        specifier: ^2.2.0
+        version: 2.2.0(react@19.1.1)
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
         version: 0.4.2(tailwindcss@3.4.17)
@@ -37,11 +37,11 @@ importers:
         specifier: 15.2.2
         version: 15.2.2(@stylistic/eslint-plugin@2.13.0(eslint@9.36.0(jiti@1.21.7))(typescript@5.9.2))(eslint-config-prettier@9.1.0(eslint@9.36.0(jiti@1.21.7)))(eslint-plugin-import-x@4.6.1(eslint@9.36.0(jiti@1.21.7))(typescript@5.9.2))(eslint-plugin-jsdoc@50.6.3(eslint@9.36.0(jiti@1.21.7)))(eslint-plugin-n@17.15.1(eslint@9.36.0(jiti@1.21.7)))(eslint-plugin-promise@7.2.1(eslint@9.36.0(jiti@1.21.7)))(eslint-plugin-tsdoc@0.3.0)(eslint-plugin-unicorn@56.0.1(eslint@9.36.0(jiti@1.21.7)))(eslint@9.36.0(jiti@1.21.7))(globals@15.14.0)(typescript-eslint@8.22.0(eslint@9.36.0(jiti@1.21.7))(typescript@5.9.2))(typescript@5.9.2)
       '@types/react':
-        specifier: ^19.1.13
-        version: 19.1.13
+        specifier: ^19.1.14
+        version: 19.1.14
       '@types/react-dom':
         specifier: ^19.1.9
-        version: 19.1.9(@types/react@19.1.13)
+        version: 19.1.9(@types/react@19.1.14)
       '@vitejs/plugin-react':
         specifier: ^5.0.3
         version: 5.0.3(vite@7.1.7(jiti@1.21.7)(yaml@2.7.0))
@@ -396,11 +396,11 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inertiajs/core@2.1.11':
-    resolution: {integrity: sha512-TF1UE1UjNRGyxJZGYe5IwDZwgyTvviE2XoJRHOS4SjS8kVzIqeBb3disIkLiJqshRNSNP8syggOro4TLtVubvA==}
+  '@inertiajs/core@2.2.0':
+    resolution: {integrity: sha512-Xo+5HSD2u6p64PaFQ7biNqDSeHZwEt+PInUvwspIps/j9dcokQs/ixuQGA9rpWIbKtsxYGZdOoYy53on4Xd27w==}
 
-  '@inertiajs/react@2.1.11':
-    resolution: {integrity: sha512-7x+Ji5cEcEg1VOaxHzx2G7ixna7tajaZuZsyouuaaYTmhyqUXLtzruTuQDvhovbHT171AhpW6FHJnxfsN2n26Q==}
+  '@inertiajs/react@2.2.0':
+    resolution: {integrity: sha512-ulO0t8C2n9wc5PSvplsObKlyHYPNVjrITsaylVhsFytJC6f9W5U5k4xEkhY4FT8aMCGy1iJBNn9SLiXhl1VxPA==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -615,8 +615,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.1.13':
-    resolution: {integrity: sha512-hHkbU/eoO3EG5/MZkuFSKmYqPbSVk5byPFa3e7y/8TybHiLMACgI8seVYlicwk7H5K/rI2px9xrQp/C+AUDTiQ==}
+  '@types/react@19.1.14':
+    resolution: {integrity: sha512-ukd93VGzaNPMAUPy0gRDSC57UuQbnH9Kussp7HBjM06YFi9uZTFhOvMSO2OKqXm1rSgzOE+pVx1k1PYHGwlc8Q==}
 
   '@typescript-eslint/eslint-plugin@8.22.0':
     resolution: {integrity: sha512-4Uta6REnz/xEJMvwf72wdUnC3rr4jAQf5jnTkeRQ9b6soxLxhDEbS/pfMPoJLDfFPNVRdryqWUIV/2GZzDJFZw==}
@@ -2162,7 +2162,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inertiajs/core@2.1.11':
+  '@inertiajs/core@2.2.0':
     dependencies:
       '@types/lodash-es': 4.17.12
       axios: 1.12.2
@@ -2171,9 +2171,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@inertiajs/react@2.1.11(react@19.1.1)':
+  '@inertiajs/react@2.2.0(react@19.1.1)':
     dependencies:
-      '@inertiajs/core': 2.1.11
+      '@inertiajs/core': 2.2.0
       '@types/lodash-es': 4.17.12
       lodash-es: 4.17.21
       react: 19.1.1
@@ -2365,11 +2365,11 @@ snapshots:
 
   '@types/normalize-package-data@2.4.4': {}
 
-  '@types/react-dom@19.1.9(@types/react@19.1.13)':
+  '@types/react-dom@19.1.9(@types/react@19.1.14)':
     dependencies:
-      '@types/react': 19.1.13
+      '@types/react': 19.1.14
 
-  '@types/react@19.1.13':
+  '@types/react@19.1.14':
     dependencies:
       csstype: 3.1.3
 
