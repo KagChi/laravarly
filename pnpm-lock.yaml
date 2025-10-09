@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inertiajs/react':
-        specifier: ^2.2.6
-        version: 2.2.6(react@19.2.0)
+        specifier: ^2.2.7
+        version: 2.2.7(react@19.2.0)
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
         version: 0.4.2(tailwindcss@3.4.18)
@@ -37,11 +37,11 @@ importers:
         specifier: 15.2.2
         version: 15.2.2(@stylistic/eslint-plugin@2.13.0(eslint@9.37.0(jiti@1.21.7))(typescript@5.9.3))(eslint-config-prettier@9.1.0(eslint@9.37.0(jiti@1.21.7)))(eslint-plugin-import-x@4.6.1(eslint@9.37.0(jiti@1.21.7))(typescript@5.9.3))(eslint-plugin-jsdoc@50.6.3(eslint@9.37.0(jiti@1.21.7)))(eslint-plugin-n@17.15.1(eslint@9.37.0(jiti@1.21.7)))(eslint-plugin-promise@7.2.1(eslint@9.37.0(jiti@1.21.7)))(eslint-plugin-tsdoc@0.3.0)(eslint-plugin-unicorn@56.0.1(eslint@9.37.0(jiti@1.21.7)))(eslint@9.37.0(jiti@1.21.7))(globals@15.14.0)(typescript-eslint@8.22.0(eslint@9.37.0(jiti@1.21.7))(typescript@5.9.3))(typescript@5.9.3)
       '@types/react':
-        specifier: ^19.2.0
-        version: 19.2.0
+        specifier: ^19.2.2
+        version: 19.2.2
       '@types/react-dom':
-        specifier: ^19.2.0
-        version: 19.2.0(@types/react@19.2.0)
+        specifier: ^19.2.1
+        version: 19.2.1(@types/react@19.2.2)
       '@vitejs/plugin-react':
         specifier: ^5.0.4
         version: 5.0.4(vite@7.1.9(jiti@1.21.7)(yaml@2.7.0))
@@ -387,11 +387,11 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inertiajs/core@2.2.6':
-    resolution: {integrity: sha512-/5SftShURcQ7jnWFM4JqRmiSTCXAYf3ZwiHzNygw4d98F6FQzySTIBq37KGTQgX715bOj9k4OzTZSO9FrLSwAw==}
+  '@inertiajs/core@2.2.7':
+    resolution: {integrity: sha512-0qU/2zdeO6veUD28MENfvwXzOl8SOY5IZgsfRObOUBl/+DHdNWdKLHSx6gAJsNN3OSl4zpb+eankX0rkNRHh+Q==}
 
-  '@inertiajs/react@2.2.6':
-    resolution: {integrity: sha512-/ZadN9RGdoLLW+m/M4aX26VlduoCaAfGSn9blefbF++vbOX7ngH/BMYPaVGSw0ERwFnKA0FfotpizGGfLbSazA==}
+  '@inertiajs/react@2.2.7':
+    resolution: {integrity: sha512-OrWdRsirjGNfEMM7C291V6rAoN/qtwbqqTIK4lLbtVgnEF/H52H7hknqxhq/RWLpCQmkGBTc0inGTF8EcOIJlA==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -590,13 +590,13 @@ packages:
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
 
-  '@types/react-dom@19.2.0':
-    resolution: {integrity: sha512-brtBs0MnE9SMx7px208g39lRmC5uHZs96caOJfTjFcYSLHNamvaSMfJNagChVNkup2SdtOxKX1FDBkRSJe1ZAg==}
+  '@types/react-dom@19.2.1':
+    resolution: {integrity: sha512-/EEvYBdT3BflCWvTMO7YkYBHVE9Ci6XdqZciZANQgKpaiDRGOLIlRo91jbTNRQjgPFWVaRxcYc0luVNFitz57A==}
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.0':
-    resolution: {integrity: sha512-1LOH8xovvsKsCBq1wnT4ntDUdCJKmnEakhsuoUSy6ExlHCkGP2hqnatagYTgFk6oeL0VU31u7SNjunPN+GchtA==}
+  '@types/react@19.2.2':
+    resolution: {integrity: sha512-6mDvHUFSjyT2B2yeNx2nUgMxh9LtOWvkhIU3uePn2I2oyNymUAX1NIsdgviM4CH+JSrp2D2hsMvJOkxY+0wNRA==}
 
   '@typescript-eslint/eslint-plugin@8.22.0':
     resolution: {integrity: sha512-4Uta6REnz/xEJMvwf72wdUnC3rr4jAQf5jnTkeRQ9b6soxLxhDEbS/pfMPoJLDfFPNVRdryqWUIV/2GZzDJFZw==}
@@ -2135,7 +2135,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inertiajs/core@2.2.6':
+  '@inertiajs/core@2.2.7':
     dependencies:
       '@types/lodash-es': 4.17.12
       axios: 1.12.2
@@ -2144,9 +2144,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@inertiajs/react@2.2.6(react@19.2.0)':
+  '@inertiajs/react@2.2.7(react@19.2.0)':
     dependencies:
-      '@inertiajs/core': 2.2.6
+      '@inertiajs/core': 2.2.7
       '@types/lodash-es': 4.17.12
       lodash-es: 4.17.21
       react: 19.2.0
@@ -2325,11 +2325,11 @@ snapshots:
 
   '@types/normalize-package-data@2.4.4': {}
 
-  '@types/react-dom@19.2.0(@types/react@19.2.0)':
+  '@types/react-dom@19.2.1(@types/react@19.2.2)':
     dependencies:
-      '@types/react': 19.2.0
+      '@types/react': 19.2.2
 
-  '@types/react@19.2.0':
+  '@types/react@19.2.2':
     dependencies:
       csstype: 3.1.3
 
