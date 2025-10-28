@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inertiajs/react':
-        specifier: ^2.2.11
-        version: 2.2.11(react@19.2.0)
+        specifier: ^2.2.14
+        version: 2.2.14(react@19.2.0)
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
         version: 0.4.2(tailwindcss@3.4.18)
@@ -18,8 +18,8 @@ importers:
         specifier: ^0.5.19
         version: 0.5.19(tailwindcss@3.4.18)
       axios:
-        specifier: ^1.12.2
-        version: 1.12.2
+        specifier: ^1.13.1
+        version: 1.13.1
       react:
         specifier: ^19.2.0
         version: 19.2.0
@@ -387,11 +387,11 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inertiajs/core@2.2.11':
-    resolution: {integrity: sha512-epXjgNZia/N5K4Y8SfAsy6bsagRjmLxQaIe2/SyMGZza0Vg4aDFnk2i3kZ7ewDcvXULXMiN42yxwiXt7rfVnXA==}
+  '@inertiajs/core@2.2.14':
+    resolution: {integrity: sha512-7hRYK4t28PQ9LIXYbfwCFg9vZYXzX6KyqfJfjh7ghufyuDExxnYbOIwydF/c0Cv5Tiy4svdDMBQa0+NoQkdrvA==}
 
-  '@inertiajs/react@2.2.11':
-    resolution: {integrity: sha512-n9UUYeEx77W6bV8mbZzCvYPPGAql7llpFJXsg8Ns7EL2dS5+0mj+JkBLJ3AQzdRKFc6e64/k7jjJgAhcT6y89g==}
+  '@inertiajs/react@2.2.14':
+    resolution: {integrity: sha512-7AH5HQkj798kOFjq+Ec2UMvltupzVh67GvfgJu/DJLKTHjBS0h5FxdrF+pdwKVr9xbj3w5r9R5qQUvetBEVRZw==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -740,8 +740,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  axios@1.12.2:
-    resolution: {integrity: sha512-vMJzPewAlRyOgxV2dU0Cuz2O8zzzx9VYtbJOaBgXFeLc4IV/Eg50n4LowmehOOR61S8ZMpc2K5Sa7g6A4jfkUw==}
+  axios@1.13.1:
+    resolution: {integrity: sha512-hU4EGxxt+j7TQijx1oYdAjw4xuIp1wRQSsbMFwSthCWeBQur1eF+qJ5iQ5sN3Tw8YRzQNKb8jszgBdMDVqwJcw==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -2135,18 +2135,18 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inertiajs/core@2.2.11':
+  '@inertiajs/core@2.2.14':
     dependencies:
       '@types/lodash-es': 4.17.12
-      axios: 1.12.2
+      axios: 1.13.1
       lodash-es: 4.17.21
       qs: 6.14.0
     transitivePeerDependencies:
       - debug
 
-  '@inertiajs/react@2.2.11(react@19.2.0)':
+  '@inertiajs/react@2.2.14(react@19.2.0)':
     dependencies:
-      '@inertiajs/core': 2.2.11
+      '@inertiajs/core': 2.2.14
       '@types/lodash-es': 4.17.12
       lodash-es: 4.17.21
       react: 19.2.0
@@ -2520,7 +2520,7 @@ snapshots:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
-  axios@1.12.2:
+  axios@1.13.1:
     dependencies:
       follow-redirects: 1.15.9
       form-data: 4.0.4
