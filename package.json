@@ -20,10 +20,10 @@
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.39.1",
     "@hazmi35/eslint-config": "15.2.2",
-    "@types/react": "^19.2.2",
+    "@types/react": "^19.2.3",
     "@types/react-dom": "^19.2.2",
     "@vitejs/plugin-react": "^5.1.0",
-    "autoprefixer": "^10.4.21",
+    "autoprefixer": "^10.4.22",
     "eslint": "9.39.1",
     "eslint-plugin-tailwindcss": "3.18.2",
     "laravel-vite-plugin": "^2.0.1",
@@ -32,7 +32,7 @@
     "typescript": "^5.9.3",
     "vite": "^7.2.2"
   },
-  "packageManager": "pnpm@10.20.0",
+  "packageManager": "pnpm@10.21.0",
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
