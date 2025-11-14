@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inertiajs/react':
-        specifier: ^2.2.15
-        version: 2.2.15(react@19.2.0)
+        specifier: ^2.2.16
+        version: 2.2.16(react@19.2.0)
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
         version: 0.4.2(tailwindcss@3.4.18)
@@ -400,11 +400,11 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inertiajs/core@2.2.15':
-    resolution: {integrity: sha512-0hj2oBWzj2Z2+UMTrqBMrRrlgoPZsqru7E9FEiR+zkOTywhuV0izJi/rAbmGBIxPAz9v3zMN/wrAy4293xBZoQ==}
+  '@inertiajs/core@2.2.16':
+    resolution: {integrity: sha512-HL1O+SnXufx1m2fWBdCwkQgc/UQC15WqlYW+bxvyJ7RxM5KFJJ0f/oxaL2B0pH9xMOOyoFTgfWhzNS5D+uE3pw==}
 
-  '@inertiajs/react@2.2.15':
-    resolution: {integrity: sha512-b6BaGtW18TqyADr/dwTSe5FHYTo6iCGkTmVLxJyyIUqKE08YXXzxfFPWbjhLsfP5SDvpg/uqlVVfMP8cIQbCtw==}
+  '@inertiajs/react@2.2.16':
+    resolution: {integrity: sha512-YUYWVxFX8XJEvdC7K92GMMR7tIVGsZJNpjfJbzHv4X+m6wszidF5pZo7mnmbxiG3g1m+WsrruJFtXWo6QJVbFA==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -2163,7 +2163,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inertiajs/core@2.2.15':
+  '@inertiajs/core@2.2.16':
     dependencies:
       '@types/lodash-es': 4.17.12
       axios: 1.13.2
@@ -2172,9 +2172,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@inertiajs/react@2.2.15(react@19.2.0)':
+  '@inertiajs/react@2.2.16(react@19.2.0)':
     dependencies:
-      '@inertiajs/core': 2.2.15
+      '@inertiajs/core': 2.2.16
       '@types/lodash-es': 4.17.12
       lodash-es: 4.17.21
       react: 19.2.0
@@ -2841,7 +2841,7 @@ snapshots:
 
   eslint-plugin-unicorn@56.0.1(eslint@9.39.1(jiti@1.21.7)):
     dependencies:
-      '@babel/helper-validator-identifier': 7.27.1
+      '@babel/helper-validator-identifier': 7.28.5
       '@eslint-community/eslint-utils': 4.9.0(eslint@9.39.1(jiti@1.21.7))
       ci-info: 4.2.0
       clean-regexp: 1.0.0
