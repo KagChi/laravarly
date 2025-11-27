@@ -9,7 +9,7 @@
     "lint:fix": "eslint resources/js --fix && php vendor/bin/php-cs-fixer fix --allow-risky=yes --quiet"
   },
   "dependencies": {
-    "@inertiajs/react": "^2.2.18",
+    "@inertiajs/react": "^2.2.19",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/typography": "^0.5.19",
     "axios": "^1.13.2",
@@ -32,7 +32,7 @@
     "typescript": "^5.9.3",
     "vite": "^7.2.4"
   },
-  "packageManager": "pnpm@10.23.0",
+  "packageManager": "pnpm@10.24.0",
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
