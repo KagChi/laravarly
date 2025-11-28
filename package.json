@@ -17,7 +17,7 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/eslintrc": "^3.3.3",
     "@eslint/js": "^9.39.1",
     "@hazmi35/eslint-config": "15.2.2",
     "@types/react": "^19.2.7",
