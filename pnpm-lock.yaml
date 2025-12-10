@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@inertiajs/react':
-        specifier: ^2.2.20
-        version: 2.2.20(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        specifier: ^2.2.21
+        version: 2.2.21(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
-        version: 0.4.2(tailwindcss@3.4.18)
+        version: 0.4.2(tailwindcss@3.4.19)
       '@tailwindcss/typography':
         specifier: ^0.5.19
-        version: 0.5.19(tailwindcss@3.4.18)
+        version: 0.5.19(tailwindcss@3.4.19)
       axios:
         specifier: ^1.13.2
         version: 1.13.2
@@ -53,7 +53,7 @@ importers:
         version: 9.39.1(jiti@1.21.7)
       eslint-plugin-tailwindcss:
         specifier: 3.18.2
-        version: 3.18.2(tailwindcss@3.4.18)
+        version: 3.18.2(tailwindcss@3.4.19)
       laravel-vite-plugin:
         specifier: ^2.0.1
         version: 2.0.1(vite@7.2.7(jiti@1.21.7)(yaml@2.7.0))
@@ -61,8 +61,8 @@ importers:
         specifier: ^8.5.6
         version: 8.5.6
       tailwindcss:
-        specifier: ^3.4.18
-        version: 3.4.18
+        specifier: ^3.4.19
+        version: 3.4.19
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -387,11 +387,11 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inertiajs/core@2.2.20':
-    resolution: {integrity: sha512-sfMlbutO2/bP9e5swUFo/shu/+QsDisXXXyRIQ1dJeBAawcDZGT7rSTBGFuzE2fdF6UYDBvY9QHMAbzAOlVf0A==}
+  '@inertiajs/core@2.2.21':
+    resolution: {integrity: sha512-uymSW39kfyL9cY8uIeyzTRYm0ZY0qMMxiyEMHjyAg8589nspeyMngDwIOBG5UFYEG+k+f2Ezu/RKTVVFrvjWNA==}
 
-  '@inertiajs/react@2.2.20':
-    resolution: {integrity: sha512-F0UAkzG7tL896Gw8m0V2WqKKFMKD3YMHTU9Yli5h00b9GMirySf53vyOw+hGq2Zie41OAHJPKSdFkPZ95tC7dQ==}
+  '@inertiajs/react@2.2.21':
+    resolution: {integrity: sha512-LwPWwv9tTDxbHjVV0lVSLnDp2Xc99k9Kpu5uCSssZqenk+Ld2V3l96nueL0t6Yrm7bI6ZcjfL5kLkUNNcXDXWA==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -1709,8 +1709,8 @@ packages:
     resolution: {integrity: sha512-vrozgXDQwYO72vHjUb/HnFbQx1exDjoKzqx23aXEg2a9VIg2TSFZ8FmeZpTjUCFMYw7mpX4BE2SFu8wI7asYsw==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  tailwindcss@3.4.18:
-    resolution: {integrity: sha512-6A2rnmW5xZMdw11LYjhcI5846rt9pbLSabY5XPxo+XWdxwZaFEn47Go4NzFiHu9sNNmr/kXivP1vStfvMaK1GQ==}
+  tailwindcss@3.4.19:
+    resolution: {integrity: sha512-3ofp+LL8E+pK/JuPLPggVAIaEuhvIz4qNcf3nA1Xn2o/7fb7s/TYpHhwGDv1ZU3PkBluUVaF8PyCHcm48cKLWQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -2127,7 +2127,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inertiajs/core@2.2.20':
+  '@inertiajs/core@2.2.21':
     dependencies:
       '@types/lodash-es': 4.17.12
       axios: 1.13.2
@@ -2136,9 +2136,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@inertiajs/react@2.2.20(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
+  '@inertiajs/react@2.2.21(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
     dependencies:
-      '@inertiajs/core': 2.2.20
+      '@inertiajs/core': 2.2.21
       '@types/lodash-es': 4.17.12
       lodash-es: 4.17.21
       react: 19.2.1
@@ -2274,14 +2274,14 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.4.18)':
+  '@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.4.19)':
     dependencies:
-      tailwindcss: 3.4.18
+      tailwindcss: 3.4.19
 
-  '@tailwindcss/typography@0.5.19(tailwindcss@3.4.18)':
+  '@tailwindcss/typography@0.5.19(tailwindcss@3.4.19)':
     dependencies:
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.4.18
+      tailwindcss: 3.4.19
 
   '@types/babel__core@7.20.5':
     dependencies:
@@ -2787,11 +2787,11 @@ snapshots:
       '@eslint-community/eslint-utils': 4.9.0(eslint@9.39.1(jiti@1.21.7))
       eslint: 9.39.1(jiti@1.21.7)
 
-  eslint-plugin-tailwindcss@3.18.2(tailwindcss@3.4.18):
+  eslint-plugin-tailwindcss@3.18.2(tailwindcss@3.4.19):
     dependencies:
       fast-glob: 3.3.3
       postcss: 8.5.6
-      tailwindcss: 3.4.18
+      tailwindcss: 3.4.19
 
   eslint-plugin-tsdoc@0.3.0:
     dependencies:
@@ -3504,7 +3504,7 @@ snapshots:
       '@pkgr/core': 0.1.2
       tslib: 2.8.1
 
-  tailwindcss@3.4.18:
+  tailwindcss@3.4.19:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
