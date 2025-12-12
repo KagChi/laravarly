@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inertiajs/react':
-        specifier: ^2.2.21
-        version: 2.2.21(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        specifier: ^2.3.0
+        version: 2.3.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
         version: 0.4.2(tailwindcss@3.4.19)
@@ -21,11 +21,11 @@ importers:
         specifier: ^1.13.2
         version: 1.13.2
       react:
-        specifier: ^19.2.1
-        version: 19.2.1
+        specifier: ^19.2.3
+        version: 19.2.3
       react-dom:
-        specifier: ^19.2.1
-        version: 19.2.1(react@19.2.1)
+        specifier: ^19.2.3
+        version: 19.2.3(react@19.2.3)
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3.3.3
@@ -387,11 +387,11 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inertiajs/core@2.2.21':
-    resolution: {integrity: sha512-uymSW39kfyL9cY8uIeyzTRYm0ZY0qMMxiyEMHjyAg8589nspeyMngDwIOBG5UFYEG+k+f2Ezu/RKTVVFrvjWNA==}
+  '@inertiajs/core@2.3.0':
+    resolution: {integrity: sha512-1EEEDcylnGxy442Ije9ckKkLUM4M1RBXFPoa4U85HJS8n4LRMJWCoqqq4NsBG+opa2S1iqliNOGWCx9GTDvzZQ==}
 
-  '@inertiajs/react@2.2.21':
-    resolution: {integrity: sha512-LwPWwv9tTDxbHjVV0lVSLnDp2Xc99k9Kpu5uCSssZqenk+Ld2V3l96nueL0t6Yrm7bI6ZcjfL5kLkUNNcXDXWA==}
+  '@inertiajs/react@2.3.0':
+    resolution: {integrity: sha512-VS4rJGDnE0C2W7Uybtt3r+2frpJKY1e2CqHYGRjJIIlxtT6HMvVAgCxsdvxIczZDm6cq4L5ljcWaoYnvkYAq2g==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -1282,6 +1282,9 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
+  laravel-precognition@1.0.0:
+    resolution: {integrity: sha512-hvXPT7dayCQAidxnsY0hab9Q+Y2rsh7xRpH9uiFtXN8Dekc3tIZt+NrxrOZ9N5SwHBmRBze/Bv+ElfXac0kD6g==}
+
   laravel-vite-plugin@2.0.1:
     resolution: {integrity: sha512-zQuvzWfUKQu9oNVi1o0RZAJCwhGsdhx4NEOyrVQwJHaWDseGP9tl7XUPLY2T8Cj6+IrZ6lmyxlR1KC8unf3RLA==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -1535,17 +1538,17 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@19.2.1:
-    resolution: {integrity: sha512-ibrK8llX2a4eOskq1mXKu/TGZj9qzomO+sNfO98M6d9zIPOEhlBkMkBUBLd1vgS0gQsLDBzA+8jJBVXDnfHmJg==}
+  react-dom@19.2.3:
+    resolution: {integrity: sha512-yELu4WmLPw5Mr/lmeEpox5rw3RETacE++JgHqQzd2dg+YbJuat3jH4ingc+WPZhxaoFzdv9y33G+F7Nl5O0GBg==}
     peerDependencies:
-      react: ^19.2.1
+      react: ^19.2.3
 
   react-refresh@0.18.0:
     resolution: {integrity: sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw==}
     engines: {node: '>=0.10.0'}
 
-  react@19.2.1:
-    resolution: {integrity: sha512-DGrYcCWK7tvYMnWh79yrPHt+vdx9tY+1gPZa7nJQtO/p8bLTDaHp4dzwEhQB7pZ4Xe3ok4XKuEPrVuc+wlpkmw==}
+  react@19.2.3:
+    resolution: {integrity: sha512-Ku/hhYbVjOQnXDZFv2+RibmLFGwFdeeKHFcOTlrt7xplBnya5OGn/hIRDsqDiSUcfORsDC7MPxwork8jBwsIWA==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -2127,22 +2130,24 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inertiajs/core@2.2.21':
+  '@inertiajs/core@2.3.0':
     dependencies:
       '@types/lodash-es': 4.17.12
       axios: 1.13.2
+      laravel-precognition: 1.0.0
       lodash-es: 4.17.21
       qs: 6.14.0
     transitivePeerDependencies:
       - debug
 
-  '@inertiajs/react@2.2.21(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
+  '@inertiajs/react@2.3.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
-      '@inertiajs/core': 2.2.21
+      '@inertiajs/core': 2.3.0
       '@types/lodash-es': 4.17.12
+      laravel-precognition: 1.0.0
       lodash-es: 4.17.21
-      react: 19.2.1
-      react-dom: 19.2.1(react@19.2.1)
+      react: 19.2.3
+      react-dom: 19.2.3(react@19.2.3)
     transitivePeerDependencies:
       - debug
 
@@ -3095,6 +3100,13 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
+  laravel-precognition@1.0.0:
+    dependencies:
+      axios: 1.13.2
+      lodash-es: 4.17.21
+    transitivePeerDependencies:
+      - debug
+
   laravel-vite-plugin@2.0.1(vite@7.2.7(jiti@1.21.7)(yaml@2.7.0)):
     dependencies:
       picocolors: 1.1.1
@@ -3308,14 +3320,14 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.2.1(react@19.2.1):
+  react-dom@19.2.3(react@19.2.3):
     dependencies:
-      react: 19.2.1
+      react: 19.2.3
       scheduler: 0.27.0
 
   react-refresh@0.18.0: {}
 
-  react@19.2.1: {}
+  react@19.2.3: {}
 
   read-cache@1.0.0:
     dependencies:
