@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inertiajs/react':
-        specifier: ^2.3.10
-        version: 2.3.10(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+        specifier: ^2.3.11
+        version: 2.3.11(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
         version: 0.4.2(tailwindcss@3.4.19)
@@ -37,11 +37,11 @@ importers:
         specifier: 15.2.2
         version: 15.2.2(@stylistic/eslint-plugin@2.13.0(eslint@9.39.2(jiti@1.21.7))(typescript@5.9.3))(eslint-config-prettier@9.1.0(eslint@9.39.2(jiti@1.21.7)))(eslint-plugin-import-x@4.6.1(eslint@9.39.2(jiti@1.21.7))(typescript@5.9.3))(eslint-plugin-jsdoc@50.6.3(eslint@9.39.2(jiti@1.21.7)))(eslint-plugin-n@17.15.1(eslint@9.39.2(jiti@1.21.7)))(eslint-plugin-promise@7.2.1(eslint@9.39.2(jiti@1.21.7)))(eslint-plugin-tsdoc@0.3.0)(eslint-plugin-unicorn@56.0.1(eslint@9.39.2(jiti@1.21.7)))(eslint@9.39.2(jiti@1.21.7))(globals@15.14.0)(typescript-eslint@8.22.0(eslint@9.39.2(jiti@1.21.7))(typescript@5.9.3))(typescript@5.9.3)
       '@types/react':
-        specifier: ^19.2.8
-        version: 19.2.8
+        specifier: ^19.2.9
+        version: 19.2.9
       '@types/react-dom':
         specifier: ^19.2.3
-        version: 19.2.3(@types/react@19.2.8)
+        version: 19.2.3(@types/react@19.2.9)
       '@vitejs/plugin-react':
         specifier: ^5.1.2
         version: 5.1.2(vite@7.3.1(jiti@1.21.7)(yaml@2.7.0))
@@ -55,8 +55,8 @@ importers:
         specifier: 3.18.2
         version: 3.18.2(tailwindcss@3.4.19)
       laravel-vite-plugin:
-        specifier: ^2.0.1
-        version: 2.0.1(vite@7.3.1(jiti@1.21.7)(yaml@2.7.0))
+        specifier: ^2.1.0
+        version: 2.1.0(vite@7.3.1(jiti@1.21.7)(yaml@2.7.0))
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
@@ -393,11 +393,11 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inertiajs/core@2.3.10':
-    resolution: {integrity: sha512-shoDHBtbFngFnHomGcLEhIEnPr+IjqxFo3PnWxurKNE5zUfViEyMYC0ZK36OVI6AeYKtHdrdyRGVeRWlOoTXHQ==}
+  '@inertiajs/core@2.3.11':
+    resolution: {integrity: sha512-PJV5t38CzncLqlXnox0jo2HZbEZhtS3ssHy6/CZqXwzH7HgctunU8JvfN6v7SgDUvBk+rP5k/I3dfztGeJO0hQ==}
 
-  '@inertiajs/react@2.3.10':
-    resolution: {integrity: sha512-CrKFMldKbbAb4JaZFo8ew+9HmIVNm0pd+vwCSHpL/WOhm98rtCnlO1034icZbwfljDWgyByLPzIE4Ru5vr2Opw==}
+  '@inertiajs/react@2.3.11':
+    resolution: {integrity: sha512-aIodGlCxSPzb+7miPRfesKpDOlRsAUTCuAP29jFyCydkoVINe5YGIXt3Ex/jxBVGHPvGReO7LOnYaHP5kRcDmw==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -602,8 +602,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.8':
-    resolution: {integrity: sha512-3MbSL37jEchWZz2p2mjntRZtPt837ij10ApxKfgmXCTuHWagYg7iA5bqPw6C8BMPfwidlvfPI/fxOc42HLhcyg==}
+  '@types/react@19.2.9':
+    resolution: {integrity: sha512-Lpo8kgb/igvMIPeNV2rsYKTgaORYdO1XGVZ4Qz3akwOj0ySGYMPlQWa8BaLn0G63D1aSaAQ5ldR06wCpChQCjA==}
 
   '@typescript-eslint/eslint-plugin@8.22.0':
     resolution: {integrity: sha512-4Uta6REnz/xEJMvwf72wdUnC3rr4jAQf5jnTkeRQ9b6soxLxhDEbS/pfMPoJLDfFPNVRdryqWUIV/2GZzDJFZw==}
@@ -1306,8 +1306,8 @@ packages:
   laravel-precognition@1.0.0:
     resolution: {integrity: sha512-hvXPT7dayCQAidxnsY0hab9Q+Y2rsh7xRpH9uiFtXN8Dekc3tIZt+NrxrOZ9N5SwHBmRBze/Bv+ElfXac0kD6g==}
 
-  laravel-vite-plugin@2.0.1:
-    resolution: {integrity: sha512-zQuvzWfUKQu9oNVi1o0RZAJCwhGsdhx4NEOyrVQwJHaWDseGP9tl7XUPLY2T8Cj6+IrZ6lmyxlR1KC8unf3RLA==}
+  laravel-vite-plugin@2.1.0:
+    resolution: {integrity: sha512-z+ck2BSV6KWtYcoIzk9Y5+p4NEjqM+Y4i8/H+VZRLq0OgNjW2DqyADquwYu5j8qRvaXwzNmfCWl1KrMlV1zpsg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -1332,8 +1332,8 @@ packages:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
     engines: {node: '>=10'}
 
-  lodash-es@4.17.21:
-    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+  lodash-es@4.17.22:
+    resolution: {integrity: sha512-XEawp1t0gxSi9x01glktRZ5HDy0HXqrM0x5pXQM98EaI0NxO6jVM7omDOxsuEo5UIASAnm2bRp1Jt/e0a2XU8Q==}
 
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
@@ -2156,22 +2156,22 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inertiajs/core@2.3.10':
+  '@inertiajs/core@2.3.11':
     dependencies:
       '@types/lodash-es': 4.17.12
       axios: 1.13.2
       laravel-precognition: 1.0.0
-      lodash-es: 4.17.21
+      lodash-es: 4.17.22
       qs: 6.14.1
     transitivePeerDependencies:
       - debug
 
-  '@inertiajs/react@2.3.10(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+  '@inertiajs/react@2.3.11(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
-      '@inertiajs/core': 2.3.10
+      '@inertiajs/core': 2.3.11
       '@types/lodash-es': 4.17.12
       laravel-precognition: 1.0.0
-      lodash-es: 4.17.21
+      lodash-es: 4.17.22
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
     transitivePeerDependencies:
@@ -2349,11 +2349,11 @@ snapshots:
 
   '@types/normalize-package-data@2.4.4': {}
 
-  '@types/react-dom@19.2.3(@types/react@19.2.8)':
+  '@types/react-dom@19.2.3(@types/react@19.2.9)':
     dependencies:
-      '@types/react': 19.2.8
+      '@types/react': 19.2.9
 
-  '@types/react@19.2.8':
+  '@types/react@19.2.9':
     dependencies:
       csstype: 3.2.3
 
@@ -3143,11 +3143,11 @@ snapshots:
   laravel-precognition@1.0.0:
     dependencies:
       axios: 1.13.2
-      lodash-es: 4.17.21
+      lodash-es: 4.17.22
     transitivePeerDependencies:
       - debug
 
-  laravel-vite-plugin@2.0.1(vite@7.3.1(jiti@1.21.7)(yaml@2.7.0)):
+  laravel-vite-plugin@2.1.0(vite@7.3.1(jiti@1.21.7)(yaml@2.7.0)):
     dependencies:
       picocolors: 1.1.1
       vite: 7.3.1(jiti@1.21.7)(yaml@2.7.0)
@@ -3170,7 +3170,7 @@ snapshots:
     dependencies:
       p-locate: 5.0.0
 
-  lodash-es@4.17.21: {}
+  lodash-es@4.17.22: {}
 
   lodash.merge@4.6.2: {}
 
