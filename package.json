@@ -13,8 +13,8 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/typography": "^0.5.19",
     "axios": "^1.13.3",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.3",
@@ -32,7 +32,7 @@
     "typescript": "^5.9.3",
     "vite": "^7.3.1"
   },
-  "packageManager": "pnpm@10.28.1",
+  "packageManager": "pnpm@10.28.2",
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
