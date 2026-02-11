@@ -9,7 +9,7 @@
     "lint:fix": "eslint resources/js --fix && php vendor/bin/php-cs-fixer fix --allow-risky=yes --quiet"
   },
   "dependencies": {
-    "@inertiajs/react": "^2.3.13",
+    "@inertiajs/react": "^2.3.14",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/typography": "^0.5.19",
     "axios": "^1.13.5",
@@ -20,7 +20,7 @@
     "@eslint/eslintrc": "^3.3.3",
     "@eslint/js": "^9.39.2",
     "@hazmi35/eslint-config": "15.2.2",
-    "@types/react": "^19.2.13",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.4",
     "autoprefixer": "^10.4.24",
@@ -32,7 +32,7 @@
     "typescript": "^5.9.3",
     "vite": "^7.3.1"
   },
-  "packageManager": "pnpm@10.29.2",
+  "packageManager": "pnpm@10.29.3",
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
