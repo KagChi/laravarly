@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inertiajs/react':
-        specifier: ^2.3.15
-        version: 2.3.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        specifier: ^2.3.16
+        version: 2.3.16(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
         version: 0.4.2(tailwindcss@3.4.19)
@@ -393,11 +393,11 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@inertiajs/core@2.3.15':
-    resolution: {integrity: sha512-C/x5w2/VhPpzfCg7SCtOxRrC8yKM7zIMvwpberMLrvSLMqPqGTFxYTJH+0E//G03RXzb+Q3+eatepbSq6tpZGw==}
+  '@inertiajs/core@2.3.16':
+    resolution: {integrity: sha512-yshF85m7Ge3IhCdwpiWRTZ5+1fzo7BK/32XWonGKsCHmHUouy2/jUasNqaQX/FnkuL0UDrstnMIZjrFQ1hscaQ==}
 
-  '@inertiajs/react@2.3.15':
-    resolution: {integrity: sha512-/n1xNRxbRqjGFytYKpAbGC/MB8ETEwY9CHkVAmF6Q2GnC3ByQMZUwKuMyI5oyFb6PxTxWDxfl5poqmajw6XnEg==}
+  '@inertiajs/react@2.3.16':
+    resolution: {integrity: sha512-TTBpnHObosC8s5GzDN0S4DT0iXOeUSqpsmLSvBpXUwlcNRDmzeYCDVo2I4GIH2IiucHivvVruc0y2RIvN6Z6Gw==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -2153,7 +2153,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inertiajs/core@2.3.15':
+  '@inertiajs/core@2.3.16':
     dependencies:
       '@types/lodash-es': 4.17.12
       axios: 1.13.5
@@ -2163,9 +2163,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@inertiajs/react@2.3.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@inertiajs/react@2.3.16(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
-      '@inertiajs/core': 2.3.15
+      '@inertiajs/core': 2.3.16
       '@types/lodash-es': 4.17.12
       laravel-precognition: 1.0.2
       lodash-es: 4.17.23
