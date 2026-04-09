@@ -12,9 +12,9 @@
     "@inertiajs/react": "^3.0.3",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/typography": "^0.5.19",
-    "axios": "^1.14.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "axios": "^1.15.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.5",
@@ -27,10 +27,10 @@
     "eslint": "9.39.4",
     "eslint-plugin-tailwindcss": "3.18.2",
     "laravel-vite-plugin": "^3.0.1",
-    "postcss": "^8.5.8",
+    "postcss": "^8.5.9",
     "tailwindcss": "^3.4.19",
     "typescript": "^5.9.3",
-    "vite": "^8.0.7"
+    "vite": "^8.0.8"
   },
   "packageManager": "pnpm@10.33.0",
   "pnpm": {
