@@ -28,7 +28,7 @@ jobs:
         run: composer install --prefer-dist --no-progress --no-suggest
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@71c92474e7e4f5bca283fb17ef80fba9cdb2b4b1 # v6
+        uses: pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e # v6
 
       - name: Setup Node.js
         uses: useblacksmith/setup-node@65c6ca86fdeb0ab3d85e78f57e4f6a7e4780b391 # v5
