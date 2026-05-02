@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@inertiajs/react':
         specifier: ^3.0.3
-        version: 3.0.3(axios@1.15.2)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 3.0.3(axios@1.16.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
         version: 0.4.2(tailwindcss@3.4.19)
@@ -18,8 +18,8 @@ importers:
         specifier: ^0.5.19
         version: 0.5.19(tailwindcss@3.4.19)
       axios:
-        specifier: ^1.15.2
-        version: 1.15.2
+        specifier: ^1.16.0
+        version: 1.16.0
       react:
         specifier: ^19.2.5
         version: 19.2.5
@@ -689,8 +689,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  axios@1.15.2:
-    resolution: {integrity: sha512-wLrXxPtcrPTsNlJmKjkPnNPK2Ihe0hn0wGSaTEiHRPxwjvJwT3hKmXF4dpqxmPO9SoNb2FsYXj/xEo0gHN+D5A==}
+  axios@1.16.0:
+    resolution: {integrity: sha512-6hp5CwvTPlN2A31g5dxnwAX0orzM7pmCRDLnZSX772mv8WDqICwFjowHuPs04Mc8deIld1+ejhtaMn5vp6b+1w==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -1050,8 +1050,8 @@ packages:
   flatted@3.3.1:
     resolution: {integrity: sha512-X8cqMLLie7KsNUDSdzeN8FYK9rEt4Dt67OsG/DNGnYTSDBG4uFAJFBnUeiV+zCVAvwFy56IjM9sH51jVaEhNxw==}
 
-  follow-redirects@1.15.11:
-    resolution: {integrity: sha512-deG2P0JfjrTxl50XGCDyfI97ZGVCxIpfKYmfyrQ54n5FO/0gfIES8C/Psl6kWVDolizcaaxZJnTS0QSMxvnsBQ==}
+  follow-redirects@1.16.0:
+    resolution: {integrity: sha512-y5rN/uOsadFT/JfYwhxRS5R7Qce+g3zG97+JrtFZlC9klX/W5hD7iiLzScI4nZqUS7DNUdhPgw4xI8W2LuXlUw==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -2077,19 +2077,19 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@inertiajs/core@3.0.3(axios@1.15.2)':
+  '@inertiajs/core@3.0.3(axios@1.16.0)':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       es-toolkit: 1.45.1
-      laravel-precognition: 2.0.0(axios@1.15.2)
+      laravel-precognition: 2.0.0(axios@1.16.0)
     optionalDependencies:
-      axios: 1.15.2
+      axios: 1.16.0
 
-  '@inertiajs/react@3.0.3(axios@1.15.2)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
+  '@inertiajs/react@3.0.3(axios@1.16.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
     dependencies:
-      '@inertiajs/core': 3.0.3(axios@1.15.2)
+      '@inertiajs/core': 3.0.3(axios@1.16.0)
       es-toolkit: 1.45.1
-      laravel-precognition: 2.0.0(axios@1.15.2)
+      laravel-precognition: 2.0.0(axios@1.16.0)
       react: 19.2.5
       react-dom: 19.2.5(react@19.2.5)
     transitivePeerDependencies:
@@ -2430,9 +2430,9 @@ snapshots:
       postcss: 8.5.13
       postcss-value-parser: 4.2.0
 
-  axios@1.15.2:
+  axios@1.16.0:
     dependencies:
-      follow-redirects: 1.15.11
+      follow-redirects: 1.16.0
       form-data: 4.0.5
       proxy-from-env: 2.1.0
     transitivePeerDependencies:
@@ -2863,7 +2863,7 @@ snapshots:
 
   flatted@3.3.1: {}
 
-  follow-redirects@1.15.11: {}
+  follow-redirects@1.16.0: {}
 
   foreground-child@3.3.0:
     dependencies:
@@ -3023,11 +3023,11 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  laravel-precognition@2.0.0(axios@1.15.2):
+  laravel-precognition@2.0.0(axios@1.16.0):
     dependencies:
       es-toolkit: 1.45.1
     optionalDependencies:
-      axios: 1.15.2
+      axios: 1.16.0
 
   laravel-vite-plugin@3.1.0(vite@8.0.10(esbuild@0.27.1)(jiti@2.6.1)(yaml@2.7.0)):
     dependencies:

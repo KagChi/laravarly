@@ -12,7 +12,7 @@
     "@inertiajs/react": "^3.0.3",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/typography": "^0.5.19",
-    "axios": "^1.15.2",
+    "axios": "^1.16.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
